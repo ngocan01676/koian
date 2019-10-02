@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <type name="\Magento\Checkout\Model\Cart\CartInterface">
+        <plugin name="Koian_AddToCart" type="Koian\AddToCart\Plugin\AddToCartmessage"   disabled="false"/>
+    </type>
+</config>
